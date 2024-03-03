@@ -16,7 +16,8 @@ spec:
           enabled: false
         server:
           service:
-            type: NodePort
+            type: LoadBalancer
+            servicePort: 81
       
 
   destination:
