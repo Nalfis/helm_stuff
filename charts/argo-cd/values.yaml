@@ -10,3 +10,4 @@ argo-cd:
       - --insecure
   service:
     type: LoadBalancer
+    
