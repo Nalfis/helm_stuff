@@ -17,8 +17,8 @@ spec:
         server:
           service:
             type: LoadBalancer
-            ports:
-              port: 81
+          ports:
+            port: 81
 
   destination:
     server: https://kubernetes.default.svc
