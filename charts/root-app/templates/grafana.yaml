@@ -14,7 +14,7 @@ spec:
       values: |
         service:
           type: LoadBalancer
-          Port: 82
+          servicePort: 82
       
 
   destination:
