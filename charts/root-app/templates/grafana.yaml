@@ -16,8 +16,6 @@ spec:
           type: LoadBalancer
           port: 82
           targetPort: 3000
-      
-
   destination:
     server: https://kubernetes.default.svc
     namespace: default
