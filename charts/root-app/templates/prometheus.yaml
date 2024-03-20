@@ -16,7 +16,8 @@ spec:
           enabled: false
         server:
           service:
-            type: LoadBalancer
+            type: NopePort
+            # type: LoadBalancer
             servicePort: 81
   destination:
     server: https://kubernetes.default.svc
