@@ -18,7 +18,8 @@ spec:
           service:
             type: NodePort
             # type: LoadBalancer
-            servicePort: 81
+            servicePort: 9090
+            # servicePort: 81
   destination:
     server: https://kubernetes.default.svc
     namespace: default
